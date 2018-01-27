@@ -1,0 +1,6 @@
+[package]
+name = "parkrun_correcter"
+version = "0.1.0"
+authors = ["Viktor Lazarev <taurus101v@gmail.com>"]
+
+[dependencies]
