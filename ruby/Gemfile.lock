@@ -2,10 +2,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.0)
+    coderay (1.1.2)
+    method_source (0.9.0)
     parallel (1.12.1)
     parser (2.4.0.2)
       ast (~> 2.3)
     powerpack (0.1.1)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     rainbow (3.0.0)
     rubocop (0.52.1)
       parallel (~> 1.10)
@@ -22,6 +27,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  pry
   rubocop
   thor
 
